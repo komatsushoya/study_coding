@@ -1,6 +1,5 @@
-a = int(input())
-b,c = map(int,input().split())
-s = input()
-
-print(a+b+c)
-print(s)
+a,b = map(int,input().split())
+if a%2==1 and b%2==1:
+    print("Odd")
+else:
+    print("Even")
